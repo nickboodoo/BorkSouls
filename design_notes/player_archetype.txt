@@ -1,0 +1,44 @@
+Soldier
+    very strong early
+    uses AXE, HAMMER, SWORD, CLUB, SHIELD
+        deal CLEAVE damage
+        linear scaling with flat damage
+
+God-Fearing Knight
+    strong early
+    uses TALISMAN, BLESSED SWORD, BLESSED SHIELD
+    instakill undead and supernatural
+    takes no magic damage
+    unable to play as UNDEAD
+
+Tank
+    uses FISTS, KNUCKLES, GLOVES
+        deal player percent health damage
+    unable to play as ELF
+
+Assassin
+    strong mid, strong late
+    uses DAGGER, SCYTHE, RAPIER, WHIP, BOW
+    dex weapons have low base damage but will apply BLEED after attacking same target 3 times
+        weapon base damage does not scale
+        BLEED scales exponentially
+        BLEED causes massive aoe and target damage and resets BLEED to 0
+
+Demon
+    very weak early, very strong late
+    sacrifice hp for massive damage potential
+    will execute enemies below 5% max hp
+    heals 15% max hp upon successful enemy kill
+    cannot use healing potions
+    uses STAFF, SPELLS, CORRUPTED TALISMAN, CORRUPTED SWORD, CORRUPTED SHIELD
+        permanently gains small amount of hp on kill (spell)
+    all NPC's are immediately hostile
+
+Gambler
+    only weapon is a REVOLVER, LUCKY REVOLVER
+        must find ammo in environment
+    random chance to hit
+    random amount of damage
+    random chance to full heal on damage dealt
+    can find items in environment that increase hit chance
+

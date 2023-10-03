@@ -1,0 +1,14 @@
+generate random seed -> seed will determine enemy and world environment
+player will progress through a grid shaped map
+
+
+difficulty setting affects healing potion abundance
+
+beasts will use spells
+    we will make moves such as stomp, scratch, etc = spells
+
+consumable: scrolls, tinctures, potions, bag of eyes, etc
+
+what to do next:
+
+weapons collection

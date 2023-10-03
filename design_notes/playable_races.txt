@@ -1,0 +1,30 @@
+undead
+    no environmental nerf
+    cannot bleed
+    does not take dot
+    low damage modifier
+    low hp modifier
+
+human
+    low cold resist
+    low heat resist
+    normal damage modifier
+    normal hp modifier
+
+dwarf
+    high cold resist
+    low heat resist
+    medium damage modifier
+    high hp modifier
+
+giant
+    high cold resist
+    high heat resist
+    low damage modifier
+    high hp modifier
+
+elf
+    high cold resist
+    high heat resist
+    very high damage modifier
+    very low hp modifier

@@ -1,0 +1,274 @@
+barbarian
+    HUMAN
+    medium hp, medium damage
+    uses SWORD, AXE, CLUB, HAMMER, SHIELD
+    drops ARMOR, WEAPONS
+
+scavenger
+    HUMAN
+    uses FISTS, DAGGER, WHIP
+    high hp, low damage
+    drops POTIONS, ARMOR, WEAPONS
+
+adventurer
+    HUMAN
+    if player = holy knight, gambler
+        gives player random potions, gear
+    else
+        hostile
+        high hp, high damage
+        uses SWORD, AXE, CLUB, HAMMER, SHIELD
+        drops POTIONS, ARMOR, WEAPONS
+
+monk
+    HUMAN
+    low target % hp damage, low hp
+    uses FISTS, KNUCKLES, GLOVES, STAFF
+    every attack on player debuffs armor
+    drops POTIONS, STAFF
+
+thief
+    HUMAN
+    uses DAGGER, WHIP to inflict status debuff
+    low base damage, high dot, high status damage
+    assassin moveset
+    drops MONEY, AMULET
+
+fighter
+    HUMAN
+    low target % hp damage, high hp
+    uses FISTS, KNUCKLES, GLOVES
+    drops ARMOR, GLOVES
+
+corrupted merchant
+    UNDEAD
+    if player = demon, gambler
+        gives player random potions, gear, money
+    else
+        hostile
+        high hp, high damage
+        instantly dies to god-fearing knight
+        uses STAFF, SPELLS, CORRUPTED TALISMAN
+        drops POTION, ARMOR, WEAPONS
+
+wight
+    UNDEAD
+    high hp, low damage
+    instantly dies to god-fearing knight
+    uses RUSTY SWORD, RUSTY SHIELD
+    drops MONEY
+
+wight overlord
+    UNDEAD
+    high hp, high damage
+    instantly dies to god-fearing knight
+    uses SWORD, AXE, HAMMER, GREATAXE, GREATSWORD, SHIELD
+    drops SWORD, AXE, MONEY
+
+mammoth
+    BEAST
+    very high hp, medium damage
+    uses SPELLS
+    will summon a cyclops to fight
+    drops POTION, MAMMOTH FAT
+
+panther
+    BEAST
+    medium hp, high damage
+    uses CLAWS, SPELLS
+    drops POTION, ASPECT OF BEAST
+
+golem
+    BEAST
+    high hp, very low damage
+    uses SPELLS
+    drops POTION, ASPECT OF ROCK
+
+vampire
+    BEAST
+    low hp, high damage
+    uses SPELLS
+    drops POTION, VAMPALL
+
+goblin
+    BEAST
+    very low hp, very low damage
+    uses WOODEN STICK
+    every attack steals gold from player
+    drops MONEY, GOLD COIN
+
+wyvern
+    BEAST
+    uses SPELLS, CLAWS
+    high hp, high damage
+    drops POTION, ASPECT OF BEAST
+
+troll
+    BEAST
+    very high hp, medium damage
+    uses CLUB
+    drops POTION, ASPECT OF GOLIATH
+
+werewolf
+    BEAST
+    medium hp, high damage
+    uses CLAWS, SPELLS
+    drops POTION, ASPECT OF BEAST
+
+harpie
+    BEAST
+    low hp, very high damage
+    uses CLAWS, SPELLS
+    drops POTION, ASPECT OF RAGE
+
+three-headed viper
+    BEAST
+    very low hp, medium damage
+    uses SPELLS
+    drops POTION, ASPECT OF POISON
+
+djinn
+    SPIRIT
+    very low hp, very high damage
+    uses STAFF
+    drops DJINN STAFF, LEVELUP
+
+gargoyle
+    SPIRIT
+    very high hp, medium damage
+    uses CLUB, MACE
+    drops FLY SCROLL, POTION
+
+wraith
+    SPIRIT
+    very low hp, very high damage
+    uses SPELLS, CORRUPTED TALISMAN
+    drops MONEY, LANTERN
+
+shrieker
+    SPIRIT
+    very low hp, very high damage
+    player has lower defense
+    uses SPELLS
+    drops BAG OF EYES
+
+spectre
+    SPIRIT
+    low hp, high damage
+    every attack steals hp from player
+    uses SPELLS
+    drops CORRUPTED DAGGER, CORRUPTED WHIP
+
+siren
+    SPIRIT
+    low hp, medium damage
+    player unable to leave combat
+    uses SPELLS
+    drops LANTERN, BAG OF EYES
+
+yokai
+    SPIRIT
+    high hp, very high damage
+    gains bonus damage every turn, chance to evade attacks
+    uses KATANA
+    drops KATANA, RICE CAKE, HORNS
+
+banshee
+    SPIRIT
+    low hp, high damage
+    player has lower attack
+    every attack steals hp from player
+    drops BLADE OF WOE, BANSHEE MASK
+
+ogre king
+    DEITY
+    BEAST
+    uses HOLY CLUB
+    summons goblin and troll
+        abandons combat, summons goblin
+        after troll dies, summons troll
+        returns to combat, fights player
+    very high hp, low damage
+    drops RING
+
+colossal ape
+    DEITY
+    BEAST
+    uses FIST
+    summons werewolf and golem
+        abandons combat, summons werewolf
+        after troll dies, summons golem
+        returns to combat, fights player
+    very high hp, medium damage
+    drops STONE FIST OF GOD
+
+fire drake
+    DEITY
+    BEAST
+    uses CLAWS, SPELLS
+    summons wyvern and harpie
+        abandons combat, summons wyvern
+        after troll dies, summons harpie
+        returns to combat, fights player
+    high hp, high damage
+    drops AMULET OF EVASION
+
+holy serpent
+    DEITY
+    BEAST
+    bonus damage against DEMON player
+    uses CLUB
+    summons gargoyle and three-headed viper
+        abandons combat, summons gargoyle
+        after troll dies, summons three-headed viper
+        returns to combat, fights player
+    low hp, high damage
+    drops ACID SPELL
+
+reaper
+    CORRUPTED DEITY
+    SPIRIT
+    uses SCYTHE
+    summons wraith and banshee
+        abandons combat, summons wraith
+        after troll dies, summons banshee
+        returns to combat, fights player
+    medium hp, very high damage
+    drops REAPER CLOAK
+
+fat guy
+    CORRUPTED DEITY
+    HUMAN
+    uses TOWER SHIELD, CORRUPTED TALISMAN
+    summons barbarian and fighter
+        abandons combat, summons barbarian
+        after troll dies, summons fighter
+        returns to combat, fights player
+    very high hp, medium damage
+    drops TOWER SHIELD
+
+predator
+    CORRUPTED DEITY
+    BEAST
+    uses CORRUPTED BEAST CLAWS
+    summons yokai and spectre
+        abandons combat, summons yokai
+        after troll dies, summons spectre
+        returns to combat, fights player
+    medium hp, very high damage
+    drops BONE TOOTH NECKLACE
+
+light bringer/world ender
+    ARCH DEITY/ARCH DEMON
+    SPIRIT
+    uses CORRUPTED SWORD, CORRUPTED SHIELD
+    summons fat guy and predator
+        abandons combat, summons fat guy
+        after troll dies, summons predator
+        returns to combat, fights player
+        after player kills world ender
+            revived as corrupted world ender with no summons but massive health pool
+    very high hp, very high damage
+    drops "f{PLAYER NAME}/'s token"
+        token shows player's stats, enemy kills, and ends game (possible ng+ situation with new playable class)
+

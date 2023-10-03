@@ -1,0 +1,56 @@
+human = [
+    barbarian,
+    scavenger,
+    adventurer,
+    monk,
+    thief,
+    fighter,
+]
+
+undead = [
+    corrupted merchant,
+    wight,
+    wight overlord,
+]
+
+beast = [
+    mammoth,
+    panther,
+    golem,
+    vampire,
+    goblin,
+    wyvern,
+    troll,
+    werewolf,
+    harpie,
+    three-headed viper,
+]
+
+spirit = [
+    djinn,
+    gargoyle,
+    wraith,
+    shrieker,
+    spectre,
+    siren,
+    yokai,
+    banshee,
+]
+
+deity = [
+    ogre king,
+    colossal ape,
+    fire drake,
+    holy serpent,
+]
+
+corrupted deity = [
+    reaper,
+    fat guy,
+    predator,
+]
+
+final boss = [
+    light bringer,
+    world ender,
+]
