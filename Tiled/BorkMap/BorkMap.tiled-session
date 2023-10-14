@@ -1,0 +1,145 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "BorkSouls/graphics/tmx/borkmap.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "BorkSouls",
+        "BorkSouls/graphics/tmx",
+        "BorkSouls/graphics/tsx",
+        "BorkSouls/graphics"
+    ],
+    "fileStates": {
+        "BorkSouls/graphics/tmx/borkmap.tmx": {
+            "expandedGroupLayers": [
+                28
+            ],
+            "scale": 0.33,
+            "selectedLayer": 22,
+            "viewCenter": {
+                "x": 4869.69696969697,
+                "y": 1027.2727272727275
+            }
+        },
+        "BorkSouls/graphics/tsx/TilesetDesert.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetDungeon.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetElement.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetField.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetFloor.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetFloorB.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetFloorDetail.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetHole.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetHouse.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetInteriorFloor.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetLogic.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetNature.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetRelief.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetReliefDetail.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetVillageAbandoned.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/TilesetWater.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "BorkSouls/graphics/tsx/borkmap.tmx": {
+            "scale": 0.6234375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1280,
+                "y": 959.1979949874687
+            }
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/nicho/Desktop",
+    "last.imagePath": "C:/Users/nicho/Desktop",
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 40,
+    "openFiles": [
+        "BorkSouls/graphics/tmx/borkmap.tmx",
+        "BorkSouls/graphics/tsx/TilesetDesert.tsx",
+        "BorkSouls/graphics/tsx/TilesetField.tsx",
+        "BorkSouls/graphics/tsx/TilesetDungeon.tsx",
+        "BorkSouls/graphics/tsx/TilesetElement.tsx",
+        "BorkSouls/graphics/tsx/TilesetFloorB.tsx",
+        "BorkSouls/graphics/tsx/TilesetFloorDetail.tsx",
+        "BorkSouls/graphics/tsx/TilesetHole.tsx",
+        "BorkSouls/graphics/tsx/TilesetHouse.tsx",
+        "BorkSouls/graphics/tsx/TilesetLogic.tsx",
+        "BorkSouls/graphics/tsx/TilesetNature.tsx",
+        "BorkSouls/graphics/tsx/TilesetRelief.tsx",
+        "BorkSouls/graphics/tsx/TilesetReliefDetail.tsx",
+        "BorkSouls/graphics/tsx/TilesetVillageAbandoned.tsx",
+        "BorkSouls/graphics/tsx/TilesetWater.tsx",
+        "BorkSouls/graphics/tsx/TilesetInteriorFloor.tsx"
+    ],
+    "project": "BorkMap.tiled-project",
+    "recentFiles": [
+        "BorkSouls/graphics/tsx/TilesetInteriorFloor.tsx",
+        "BorkSouls/graphics/tsx/TilesetWater.tsx",
+        "BorkSouls/graphics/tsx/TilesetVillageAbandoned.tsx",
+        "BorkSouls/graphics/tsx/TilesetReliefDetail.tsx",
+        "BorkSouls/graphics/tsx/TilesetRelief.tsx",
+        "BorkSouls/graphics/tsx/TilesetNature.tsx",
+        "BorkSouls/graphics/tsx/TilesetLogic.tsx",
+        "BorkSouls/graphics/tsx/TilesetHouse.tsx",
+        "BorkSouls/graphics/tsx/TilesetHole.tsx",
+        "BorkSouls/graphics/tsx/TilesetFloorDetail.tsx",
+        "BorkSouls/graphics/tsx/TilesetFloorB.tsx",
+        "BorkSouls/graphics/tsx/TilesetElement.tsx"
+    ],
+    "tileset.lastUsedFilter": "All Files (*)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}
