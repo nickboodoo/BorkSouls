@@ -2,10 +2,10 @@
     "activeFile": "C:/Users/nicho/Documents/BorkSouls/graphics/tmx/borkmap.tmx",
     "expandedProjectPaths": [
         "BorkSouls/graphics/tmx",
-        "BorkSouls",
         ".",
-        "BorkSouls/graphics",
-        "BorkSouls/graphics/tsx"
+        "BorkSouls/graphics/tsx",
+        "BorkSouls",
+        "BorkSouls/graphics"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -93,11 +93,14 @@
             }
         },
         "C:/Users/nicho/Documents/BorkSouls/graphics/tmx/borkmap.tmx": {
-            "scale": 0.084015625,
-            "selectedLayer": 1,
+            "expandedGroupLayers": [
+                13
+            ],
+            "scale": 0.25,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 4665.798772549749,
-                "y": 4749.116607773851
+                "x": 5604,
+                "y": 1232
             }
         },
         "C:/Users/nicho/Documents/BorkSouls/graphics/tsx/TilesetDesert.tsx": {
